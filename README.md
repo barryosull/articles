@@ -7,12 +7,12 @@ I've started writing again and I wanted somewhere to host my files, I also wante
 ## Who am I?
 For those of you that stumbled upon this repo, my name is Barry O Sullivan. I am software developer with over 11 years experience building web applications. My languages of choice are PHP, Javascript and Java. 
 
-I like to think of myself as a one man dev team, as I can do the full stack, from PHP server side to JS client side. Through in some android development on top of this, and you can see what I mean.
+I like to think of myself as a one man dev team, as I can do the full stack, from PHP server side to JS client side. Throw in some android development on top of this, and you can see what I mean.
 
 ### What I've done
 So enough about the casual bragging, let's move onto the serious bragging. What have I actually done and what am I proud off? 
 
-For my current client, I've built an event sourced, CQRS server app with multiple sub-domains (DDD term, think of microservices, but geared around domain language, not dev language). There are then three web applications and one android application that use those domains. The architecture is very clean, allowing for rapid iteration. 
+For my current client, I've built an event sourced, CQRS server app with multiple sub-domains (DDD term, think of microservices, but geared around domain language, not dev language). There are then three web applications and one android application that use those domains. The architecture is very clean, allowing for rapid iteration, with analytics baked into the core of the app. 
 
 I've written a PHP ValueObject library that allows you to rapdidly build new valueobjects, it essentially a toolkit.
 
@@ -25,6 +25,8 @@ I organise PHPDublin, Ireland's largest PHP meetup group. I look after speakers 
 I'm part of an open source group that is building an event sourcing framework for PHP.
 
 I mentor startups in software development, primarily architecture and design.
+
+Looking at the above, I am very busy and I didn't realise it. Hey, if you enjoy it, it's not work.
 
 # Articles
 This repo contains all my writing, so feel free to look around. If you have any questions or suggestions, feel free to drop me a message, I'm always happy to help.
