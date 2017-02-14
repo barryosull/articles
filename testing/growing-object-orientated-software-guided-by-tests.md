@@ -102,5 +102,5 @@ Use "DefectException"s, these are a sub type of exception that are only throw if
 
 Don't use literals, give values meaningful names
 
-Command changes state, queries do not. Always remember CQS (and CORS).
+Command changes state, queries do not. Always remember CQS (and CQRS).
 
