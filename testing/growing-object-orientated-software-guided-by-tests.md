@@ -1,7 +1,6 @@
 # Growing Object Orientated Software, Guided by Tests
 
 Below is a collection of notes I made after reading [this book](http://www.growing-object-oriented-software.com/). I'm putting them online because it's a useful reference for myself, and hopefully others. I've tried to group advice together to make it easier to read (for both you and me). 
-=========================================================================================================================
 
 ### Three types of test:
 - Acceptance: End to end
@@ -48,7 +47,7 @@ Test behaviour, not methods. This means writing tests that show what your object
 Tests should fail informateively. If a failing test doesn't help you figure out what's wrong, then it's only half helping you.
 
 ### OOP practices
-Objects communicate via messages. Messages should be immmutable, Objects can have state.
+Objects communicate via messages. Messages/Values should be immmutable, Objects can have state.
 
 "Encapsulte data" is another way of saying "hide data". If an object is "hiding data" it better have a good reason. Eg. constants in the wrong file
 
