@@ -1,8 +1,10 @@
 # Growing Object Orientated Software, Guided by Tests
 
-Below is a collection of notes I made after reading [this book](http://www.growing-object-oriented-software.com/). I'm putting them online because it's a useful reference and someone might find it useful. So here we go.
+Below is a collection of notes I made after reading [this book](http://www.growing-object-oriented-software.com/). I'm putting them online because it's a useful reference and someone might find it useful. The advice will seem all over the place, eventually I'll edit it so that headings are clearer.
 
-Three types of test:
+=========================================================================================================================
+
+### Three types of test:
 - Acceptance: End to end
 - Integration: Test that our code can interact with code that we don't control, eg. an external API ora library
 - Unit: Test our objects do the right thing (and are they easy to work with)
@@ -13,7 +15,7 @@ Hard to test objects most likely have a poor design. It means they are hard to u
 
 Always have end to end tests, they expose uncertainty early
 
-Brownfield projects (legacy codebases)
+### Brownfield projects (legacy codebases)
 - Automate build and deploy
 - Add end to end tests for the parts you want to change
 - Slowly build testcoverage as you update/fix the codebase (3 types where appropriate) 
@@ -25,7 +27,7 @@ Write "a" failing test, don't write all test cases at once (applies to all test 
 
 Test behaviour, not methods. This means writing tests that show what your object is for, not what it's methods do.Weneed to know how to use the object to achieve a goal. 
 
-TDD loop. 
+### TDD loop
 1. Write a failing unit test
 2. Make the test pass
 3. Refactor
@@ -55,7 +57,7 @@ Don't use strings, use domain types instead (ValueObjects).
 
 In tests, don't mock values, use real ones instead. If they're complex to build, then use one of the many object creation patterns and add that to your test codebase.
 
-Dealing with bloated constructors:
+### Dealing with bloated constructors:
 - Pakage the dependencies into a new concept
 - Break up the class into multiple classes
 - Use default values (if the majority of constructor arguments are values)
@@ -65,7 +67,7 @@ Test name should describe features, not methods
 
 Writing test names. It doesn't matter if you write the first or last, as long they're easy to understand and you're consistent.
 
-Writing a test, what orrder should I do it in?
+### Writing a test, what orrder should I do it in?
 - Write test name
 - Write the call to the target code
 - Write assertions/expectations
@@ -83,7 +85,7 @@ Tests should fail informateively. If a failing test doesn't help you figure out 
 
 Mock objects can be viewed as tracer objects, they tell you they're not used as expected
 
-The TDD loop should really be the following
+### The TDD loop should really be the following
 1. Write a failing unit test
 2. Report errors clearly
 3. Make the test pass
