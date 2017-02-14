@@ -1,32 +1,12 @@
-#Barry O Sullivan's blog
+# Barry O Sullivan's blog
 
-"A blog, on github?!" (Yes, I'm imagining your monocle popping out as you exclaim this)
-
-I've started writing again and I wanted somewhere to host my files, I also wanted the files to be written in Mardown and I really didn't want to write another custom blog project. Github meets my needs, why not use it?
+I'm changing this blurb because the last one was embarassing. Here's a much simpler one that isn't as full of humble brags.
 
 ## Who am I?
-For those of you that stumbled upon this repo, my name is Barry O Sullivan. I am software developer with over 11 years experience building web applications. My languages of choice are PHP, Javascript and Java. 
-
-I like to think of myself as a one man dev team, as I can do the full stack, from PHP server side to JS client side. Throw in some android development on top of this, and you can see what I mean.
+Barry O Sullivan, developer, writer (apparently), lover of games and irreverant TV shows. I also currently look like a homeless sea captain.
 
 ### What I've done
-So enough about the casual bragging, let's move onto the serious bragging. What have I actually done and what am I proud off? 
-
-For my current client, I've built an event sourced, CQRS server app with multiple sub-domains (DDD term, think of microservices, but geared around domain language, not dev language). There are then three web applications and one android application that use those domains. The architecture is very clean, allowing for rapid iteration, with analytics baked into the core of the app. 
-
-I've written a PHP ValueObject library that allows you to rapdidly build new valueobjects, it essentially a toolkit.
-
-I've written an ES5 dependency injection library that has proven very useful. I'm big into OOP. so I got fed up with Javascript not having interfaces, so I wrote a library to solve it. It does a lot of other neat stuff too.
-
-I write DSLs (Domain Specific Languages) and their parsers, recently I wrote one to handle encoding and decoding client requests, saved my team a lot of time.
-
-I organise PHPDublin, Ireland's largest PHP meetup group. I look after speakers and occasionaly speak myself.
-
-I'm part of an open source group that is building an event sourcing framework for PHP.
-
-I mentor startups in software development, primarily architecture and design.
-
-Looking at the above, I am very busy and I didn't realise it. Hey, if you enjoy it, it's not work.
+Who cares? This isn't a place for pitching myself, it's a place for me to store stuff I've written and maybe a place for other people to read interesting things. If you really want to what I've done (in the pitchiest way possible), go to my linkedin profile.
 
 # Articles
-This repo contains all my writing, so feel free to look around. If you have any questions or suggestions, feel free to drop me a message, I'm always happy to help.
+This repo contains my writings and ranting on topics related to software development. Hope you find it interesting.
