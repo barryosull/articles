@@ -1,6 +1,6 @@
 # Growing Object Orientated Software, Guided by Tests
 
-Below is a collection of notes I made after reading [Growing Object Orientated Software, Guided by Tests](http://www.growing-object-oriented-software.com/). I would highly recommend that everyone read this book. Writing tests is hard, and using tests to write good code is even harder, and it takes a lot of time and a lotof getting it wrong. Well, this book explaisn how to do it step by step, I'm definitely a better developer for having read it. Many thanks to the code wizard that lent it to me, you know who you are. 
+Below is a collection of notes I made after reading [Growing Object Orientated Software, Guided by Tests](http://www.growing-object-oriented-software.com/). I would highly recommend that everyone read this book. Writing tests is hard, and using tests to write good code is even harder, and it takes a lot of time and a lot of getting it wrong. Well, the book explains how to do it step by step, I'm definitely a better developer for having read it. Many thanks to the code wizard that lent it to me, you know who you are. 
 
 I'm posting these notes online because it's a useful reference for myself, and hopefully others. I've tried to group advice together to make it easier to read (for both you and me). 
 
