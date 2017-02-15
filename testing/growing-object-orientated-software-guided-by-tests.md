@@ -1,12 +1,12 @@
 # Growing Object Orientated Software, Guided by Tests
 
-Below is a collection of notes I made after reading [Growing Object Orientated Software, Guided by Tests](http://www.growing-object-oriented-software.com/). I would highly recommend that everyone read this book. Writing tests is hard, and using tests to write good code is even harder, and it takes a lot of time and a lot of getting it wrong. Well, the book explains how to do it step by step, I'm definitely a better developer for having read it. Many thanks to the code wizard that lent it to me, you know who you are. 
+Below is a collection of notes I made after reading [Growing Object Orientated Software, Guided by Tests](http://www.growing-object-oriented-software.com/). I would highly recommend that everyone read this book. Writing tests is hard, and using tests to write good code is even harder. It takes a lot of time and a lot of getting it wrong. Well, the book above explains how to do it step by step, I'm definitely a better developer for having read it. Many thanks to the code wizard that lent it to me, you know who you are. 
 
 I'm posting these notes online because it's a useful reference for myself, and hopefully others. I've tried to group advice together to make it easier to read (for both you and me). 
 
 ### Three types of test:
 - Acceptance: End to end
-- Integration: Test that our code can interact with code we don't control, eg. an external API ora library
+- Integration: Test that our code can interact with code we don't control, eg. an external API or a library
 - Unit: Test our objects do the right thing (and are they easy to work with)
 
 ### Starting a new project
@@ -28,7 +28,7 @@ Always have end to end tests, they expose uncertainty early
 ### Brownfield projects (legacy codebases)
 - Automate build and deploy
 - Add end to end tests for the parts you want to change
-- Slowly build testcoverage as you update/fix the codebase (3 types where appropriate) 
+- Slowly build test coverage as you update/fix the codebase (3 types where appropriate) 
 
 ### The TDD loop
 1. Write a failing unit test
@@ -83,7 +83,7 @@ Mock objects can be viewed as tracer objects, they tell you when they're not use
 
 Test readability and resilience tend to end up coupled. If your tests are hard to read, then there's a good chance they're fragile.
 
-If you're using a data store, be sure to blank the data on setup, not teardown, makes it easier tests crashing and never running teardown code, leaving your system in an inconsistent state.
+If you're using a data store in integration or acceptance tests, be sure to blank the data on setup, not teardown. If there's a crash midway through a test, then teardown never gets called and your system is in an inconsistent state. Blank during setup and you'll never have this problem.
 
 ### Writing a test, what order should I do it in?
 1. Write test name
